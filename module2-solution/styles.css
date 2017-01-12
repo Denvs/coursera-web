@@ -1,0 +1,101 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+	
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 1.75em;
+}
+
+h2 {
+	width: 150px;
+	height: 40px;
+	float: right;
+	margin-left: 800px;
+	margin-bottom: 20px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	font-size: 1.25em;
+	padding-top: 5px;
+	position: relative;
+	top: 16px;
+	right: 16px;
+
+
+}
+
+p {
+
+	border: 1px solid black;
+	height: 250px;
+	margin: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+.chiken p {
+	background-color: #ffe6b3;
+}
+
+
+.chiken h2 {
+	background-color: #ffd480;
+}
+
+.beef p {
+	background-color: #e6ffcc;
+}
+
+.beef h2 {
+	background-color: #ccff99;
+	
+}
+
+.sushi p {
+	background-color: #e6f2ff;
+}
+
+.sushi h2 {
+	background-color: #cce6ff;
+}
+
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		width: 33%;
+	    float: left;
+		}
+	}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
+		float: left;
+		}
+
+	.col-md-12 {
+		width: 100%;
+        float: left;
+        
+      	}
+
+	}
+
+
+@media (max-width: 767px) {
+	.col-sm-12 {
+		width: 100%;
+		float: left;
+		}
+	}
