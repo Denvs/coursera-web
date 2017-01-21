@@ -1,0 +1,26 @@
+
+.navbar {
+	min-height: 80px;
+	background-color: #D8ECF2;
+}
+
+
+#header-nav {
+	border-radius: 0;
+	border: solid black;
+}
+.navbar-brand a {
+	text-decoration: none;
+
+}
+
+@media (min-width: 769px) {
+#nav-list {
+	display: none;
+	}
+}
+
+#chiken, #beef, #sushi {
+	background-color: #E1EEF2;
+	margin-bottom: 20px;
+}
